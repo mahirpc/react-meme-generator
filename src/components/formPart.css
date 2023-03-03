@@ -1,0 +1,82 @@
+.form{
+    color: rgb(254, 198, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    margin-bottom: 30px;
+    width: 100%;
+    padding-left: 0px;
+
+}
+.form-button{
+    background: linear-gradient(to right,rgb(105, 9, 105),rgb(180, 16, 180));
+    border-radius: 5px;
+    padding: 5px;
+    align-self: stretch;
+    color: rgb(254, 198, 246);
+    margin-bottom: 20px;
+}
+.input{
+    width: 46%;
+    margin: auto;
+    padding: 5px;   
+}
+.input_1{
+    margin-right: 2%;
+}
+.input_2{
+    margin-left: 2%;
+}
+.meme-container{
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+    text-shadow: 2px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+    text-transform: uppercase;
+}
+.meme-image{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.top-part{
+    position: absolute;
+    top: 5px;
+    max-width: 95%;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-x: hidden;
+    
+}
+.bottom-part{
+    position: absolute;
+    bottom: 20px;
+    max-width: 95%;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-x: hidden;
+}

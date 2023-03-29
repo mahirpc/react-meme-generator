@@ -1,6 +1,6 @@
 # Meme Generator App in ReactJS
 
-This is a simple Meme Generator App created using ReactJS. It allows users to create memes by generating a random image and adding their own text. The app is easy to use and provides a fun way to create memes.  
+This is a simple Meme Generator App created using ReactJS. It allows users to create memes on top of a random image from a collection of images and adding their own text. The app is easy to use and provides a fun way to create memes.  
 hosted at : https://mahirpc.github.io/react-meme-generator/
 
 ## Installation:
